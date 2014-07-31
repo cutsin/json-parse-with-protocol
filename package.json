@@ -1,6 +1,6 @@
 {
   "name": "json-parse-with-protocol",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSON.parse with protocol like 'path:', 'file:'",
   "main": "index.js",
   "private": false,

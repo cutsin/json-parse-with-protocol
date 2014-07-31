@@ -1,5 +1,6 @@
 # JSON.parse with protocol
 
+It's instead of [shortstop@async](https://www.npmjs.org/package/shortstop), sometimes we need read config file sync
 
 ## Installation
 
