@@ -1,0 +1,112 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/bin/npm', 'publish' ]
+2 info using npm@1.3.6
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /root/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+12 verbose folder .
+13 silly lockFile 1f1177db-tar tar://.
+14 verbose lock tar://. /root/.npm/1f1177db-tar.lock
+15 silly lockFile 01d0b790-5833-0-06141849793493748-tmp-tgz tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+16 verbose lock tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz /root/.npm/01d0b790-5833-0-06141849793493748-tmp-tgz.lock
+17 silly lockFile 1f1177db-tar tar://.
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 01d0b790-5833-0-06141849793493748-tmp-tgz tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+20 silly lockFile 01d0b790-5833-0-06141849793493748-tmp-tgz tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+21 verbose tar unpack /root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+22 silly lockFile 25108dd4-5833-0-06141849793493748-package tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+23 verbose lock tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package /root/.npm/25108dd4-5833-0-06141849793493748-package.lock
+24 silly lockFile 01d0b790-5833-0-06141849793493748-tmp-tgz tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+25 verbose lock tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz /root/.npm/01d0b790-5833-0-06141849793493748-tmp-tgz.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm modified mode [ 'package.json', 511, 493 ]
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm modified mode [ 'README.md', 511, 493 ]
+31 silly gunzTarPerm extractEntry index.js
+32 silly gunzTarPerm modified mode [ 'index.js', 511, 493 ]
+33 silly lockFile 25108dd4-5833-0-06141849793493748-package tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+34 silly lockFile 25108dd4-5833-0-06141849793493748-package tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+35 silly lockFile 01d0b790-5833-0-06141849793493748-tmp-tgz tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+36 silly lockFile 01d0b790-5833-0-06141849793493748-tmp-tgz tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/tmp.tgz
+37 verbose tar pack [ '/root/.npm/json-parse-with-protocol/0.0.1/package.tgz',
+37 verbose tar pack   '/root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package' ]
+38 verbose tarball /root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+39 verbose folder /root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+40 silly lockFile 25108dd4-5833-0-06141849793493748-package tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+41 verbose lock tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package /root/.npm/25108dd4-5833-0-06141849793493748-package.lock
+42 silly lockFile a13d7ec2--with-protocol-0-0-1-package-tgz tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+43 verbose lock tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz /root/.npm/a13d7ec2--with-protocol-0-0-1-package-tgz.lock
+44 silly lockFile 25108dd4-5833-0-06141849793493748-package tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+45 silly lockFile 25108dd4-5833-0-06141849793493748-package tar:///root/tmp/npm-14144-rK7CEGN3/1406786535833-0.06141849793493748/package
+46 silly lockFile a13d7ec2--with-protocol-0-0-1-package-tgz tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+47 silly lockFile a13d7ec2--with-protocol-0-0-1-package-tgz tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+48 silly lockFile 778e70b7-arse-with-protocol-0-0-1-package /root/.npm/json-parse-with-protocol/0.0.1/package
+49 verbose lock /root/.npm/json-parse-with-protocol/0.0.1/package /root/.npm/778e70b7-arse-with-protocol-0-0-1-package.lock
+50 silly lockFile 778e70b7-arse-with-protocol-0-0-1-package /root/.npm/json-parse-with-protocol/0.0.1/package
+51 silly lockFile 778e70b7-arse-with-protocol-0-0-1-package /root/.npm/json-parse-with-protocol/0.0.1/package
+52 verbose tar unpack /root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+53 silly lockFile cd855989-arse-with-protocol-0-0-1-package tar:///root/.npm/json-parse-with-protocol/0.0.1/package
+54 verbose lock tar:///root/.npm/json-parse-with-protocol/0.0.1/package /root/.npm/cd855989-arse-with-protocol-0-0-1-package.lock
+55 silly lockFile a13d7ec2--with-protocol-0-0-1-package-tgz tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+56 verbose lock tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz /root/.npm/a13d7ec2--with-protocol-0-0-1-package-tgz.lock
+57 silly gunzTarPerm modes [ '755', '644' ]
+58 silly gunzTarPerm extractEntry package.json
+59 silly gunzTarPerm extractEntry README.md
+60 silly gunzTarPerm extractEntry index.js
+61 silly lockFile cd855989-arse-with-protocol-0-0-1-package tar:///root/.npm/json-parse-with-protocol/0.0.1/package
+62 silly lockFile cd855989-arse-with-protocol-0-0-1-package tar:///root/.npm/json-parse-with-protocol/0.0.1/package
+63 silly lockFile a13d7ec2--with-protocol-0-0-1-package-tgz tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+64 silly lockFile a13d7ec2--with-protocol-0-0-1-package-tgz tar:///root/.npm/json-parse-with-protocol/0.0.1/package.tgz
+65 verbose chmod /root/.npm/json-parse-with-protocol/0.0.1/package.tgz 644
+66 verbose chown /root/.npm/json-parse-with-protocol/0.0.1/package.tgz [ 0, 0 ]
+67 silly lockFile 3a52ce78- .
+68 silly lockFile 3a52ce78- .
+69 silly publish { name: 'json-parse-with-protocol',
+69 silly publish   version: '0.0.1',
+69 silly publish   description: 'JSON.parse with protocol like \'path:\', \'file:\'',
+69 silly publish   main: 'index.js',
+69 silly publish   scripts: { test: 'mocha' },
+69 silly publish   keywords: [ 'json config with protocol' ],
+69 silly publish   author:
+69 silly publish    { name: 'Cutsin',
+69 silly publish      email: 'cutsin@gmail.com',
+69 silly publish      url: 'http://moonless.net' },
+69 silly publish   license: 'MIT',
+69 silly publish   repository:
+69 silly publish    { type: 'git',
+69 silly publish      url: 'https://github.com/cutsin/json-parse-with-protocol.git' },
+69 silly publish   bugs: { url: 'https://github.com/cutsin/json-parse-with-protocol/issues' },
+69 silly publish   homepage: 'https://github.com/cutsin/json-parse-with-protocol',
+69 silly publish   readme: '# JSON.parse with protocol\r\n\r\n\r\n## Installation\r\n\r\n\tnpm install json-parse-with-protocol\r\n\r\n## Usage\r\n\r\n\tvar jsonpp = require(\'json-parse-with-protocol\')\r\n\t\r\n\tvar jsonString = JSON.stringify({\r\n\t\tfoo: \'bar\',\r\n\t\tpath: \'path:./your-path\',\r\n\t\tfile: \'file:/your-file\'\r\n\t})\r\n\r\n\tconsole.log( jsonpp(jsonString) )\r\n\t// -> { foo: bar, path: "/full path/your-path", file: <..file buffer..> }\r\n\r\n',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'json-parse-with-protocol@0.0.1',
+69 silly publish   dist: { shasum: '42f6ac086c158048d5ff0c4d0f7fac76b74f88aa' },
+69 silly publish   _from: '.' }
+70 error need auth auth and email required for publishing
+70 error need auth You need to authorize this machine using `npm adduser`
+71 error System Linux 2.6.32-358.el6.x86_64
+72 error command "node" "/usr/bin/npm" "publish"
+73 error cwd /vagrant/json-parse-with-protocol
+74 error node -v v0.10.21
+75 error npm -v 1.3.6
+76 error code ENEEDAUTH
+77 verbose exit [ 1, true ]
