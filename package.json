@@ -1,0 +1,14 @@
+{
+  "name": "json-parse-with-protocol",
+  "version": "0.0.1",
+  "description": "JSON.parse with protocol like 'path:', 'file:'",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "json config with protocol"
+  ],
+  "author": "Cutsin",
+  "license": "MIT"
+}
