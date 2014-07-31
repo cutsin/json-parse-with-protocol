@@ -10,5 +10,13 @@
     "json config with protocol"
   ],
   "author": "Cutsin",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cutsin/json-parse-with-protocol.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cutsin/json-parse-with-protocol/issues"
+  },
+  "homepage": "https://github.com/cutsin/json-parse-with-protocol"
 }
